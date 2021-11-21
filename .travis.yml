@@ -6,7 +6,7 @@ python:
 
 install::
    - "pipenv install"
-   - "pipenv install pytest"
-   - "pipenv install pytest-bdd"
+     #- "pipenv install pytest"
+     #   - "pipenv install pytest-bdd"
 
 script: pipenv run python -m pytest -v
